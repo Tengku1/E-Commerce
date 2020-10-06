@@ -1,143 +1,143 @@
 * {
-  letter-spacing: 2px;
+    letter-spacing: 2px;
 }
 
 footer {
-  background-color: #bf9d7e;
+    background-color: #bf9d7e;
 }
 
 header {
-  background-color: #d9b79a;
+    background-color: #d9b79a;
 }
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 .bestSeller {
-  letter-spacing: 2px;
-  font-weight: bolder;
+    letter-spacing: 2px;
+    font-weight: bolder;
 }
 
 .bestSeller button {
-  text-transform: uppercase;
-  background: linear-gradient(to right, #0e1d36 50%, #40281a 50%);
-  background-size: 200% 100%;
-  background-position: right bottom;
-  transition: all 0.5s ease-out;
+    text-transform: uppercase;
+    background: linear-gradient(to right, #0e1d36 50%, #40281a 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all 0.5s ease-out;
 }
 
 .bestSeller button:hover {
-  background-position: left bottom;
+    background-position: left bottom;
 }
 
 .bestSeller .itemBest {
-  font-size: 13px;
+    font-size: 13px;
 }
 
 .bestSeller .itemBest span {
-  clear: both;
-  content: "";
-  display: block;
+    clear: both;
+    content: "";
+    display: block;
 }
 
 .card {
-  border: 0 !important;
+    border: 0 !important;
 }
 
 .card .card-header {
-  background-color: transparent;
-  border: 0;
+    background-color: transparent;
+    border: 0;
 }
 
 .card .card-body {
-  background-color: transparent;
-  border: 0;
-  margin: 0 !important;
+    background-color: transparent;
+    border: 0;
+    margin: 0 !important;
 }
 
 .card .card-body img {
-  transition: opacity 0.3s ease-out;
-  display: inline;
+    transition: opacity 0.3s ease-out;
+    display: inline;
 }
 
 .card .card-body img:nth-of-type(2) {
-  opacity: 0;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  z-index: 99;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 99;
 }
 
 .card .card-body:hover img:nth-of-type(2) {
-  opacity: 1;
+    opacity: 1;
 }
 
 .card .card-body:hover img:first-of-type {
-  opacity: 0;
+    opacity: 0;
 }
 
 .card .card-footer {
-  background-color: transparent;
-  border: 0;
+    background-color: transparent;
+    border: 0;
 }
 
 .carousel .carousel-item {
-  min-height: 600px;
-  overflow: hidden;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  font-weight: bolder;
+    min-height: 600px;
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-weight: bolder;
 }
 
 .carousel .carousel-item:first-of-type {
-  background-image: url(/images/screen-0.jpg?6f55796e104b1b12f247c64e95e731dd);
+    background-image: url(/images/screen-0.jpg?6f55796e104b1b12f247c64e95e731dd);
 }
 
 .carousel .carousel-item:last-of-type {
-  background-image: url(/images/screen-2.jpg?e770bf1c93b4b18545429ff13a575394);
+    background-image: url(/images/screen-2.jpg?e770bf1c93b4b18545429ff13a575394);
 }
 
 .carousel .carousel-item .carousel-caption {
-  font-size: 20px;
-  text-transform: uppercase;
-  font-weight: bolder;
-  right: 0;
-  left: 0;
-  bottom: 15%;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    right: 0;
+    left: 0;
+    bottom: 15%;
 }
 
 @media only screen and (max-width: 980px) {
-  .carousel .carousel-item .carousel-caption {
-    left: 0;
-    right: 0;
-    bottom: 50%;
-    top: 50%;
-  }
+    .carousel .carousel-item .carousel-caption {
+        left: 0;
+        right: 0;
+        bottom: 50%;
+        top: 50%;
+    }
 }
 
 .detail {
-  height: auto;
-  overflow: hidden;
-  padding-top: 100px !important;
+    height: auto;
+    overflow: hidden;
+    padding-top: 100px !important;
 }
 
 .excellence {
-  width: 100%;
-  height: auto;
-  background-color: #f2efeb;
+    width: 100%;
+    height: auto;
+    background-color: #f2efeb;
 }
 
 .excellence .BoxExcellence {
-  height: 550px;
+    height: 550px;
 }
 
 .excellence .BoxExcellence .col-md-6 {
-  height: 100%;
-  overflow: hidden;
+    height: 100%;
+    overflow: hidden;
 }
 
 .excellence .BoxExcellence .col-md-6 h1,
@@ -146,160 +146,159 @@ html {
 .excellence .BoxExcellence .col-md-6 h4,
 .excellence .BoxExcellence .col-md-6 h5,
 .excellence .BoxExcellence .col-md-6 h6 {
-  color: #0e1d36;
-  margin-bottom: 20px;
+    color: #0e1d36;
+    margin-bottom: 20px;
 }
 
 .excellence .BoxExcellence .col-md-6 span {
-  color: #59291e;
+    color: #59291e;
 }
 
 .excellence .BoxExcellence .descExcellence {
-  padding: 160px 4%;
+    padding: 160px 4%;
 }
 
 .excellence .BoxExcellence:nth-of-type(even) .col-md-6 {
-  float: right;
+    float: right;
 }
 
 .excellence .BoxExcellence:nth-of-type(odd) .col-md-6 {
-  float: left;
+    float: left;
 }
 
 nav.navbar {
-  position: absolute;
-  z-index: 100;
-  background-color: #bf7d56;
-  transition: color 0.3s ease-in-out;
+    position: absolute;
+    z-index: 100;
+    background-color: #bf7d56;
+    transition: color 0.3s ease-in-out;
 }
 
 nav.navbar a {
-  color: white;
-  transition: color 0.3s ease-in-out;
+    color: white;
+    transition: color 0.3s ease-in-out;
 }
 
 nav.navbar [class*=col-] {
-  text-align: center;
+    text-align: center;
 }
 
 nav.navbar [class*=col-]:last-of-type .navbar-nav {
-  float: right;
+    float: right;
 }
 
 @media only screen and (max-width: 980px) {
-  nav.navbar [class*=col-]:last-of-type .navbar-nav {
-    float: none;
-  }
+    nav.navbar [class*=col-]:last-of-type .navbar-nav {
+        float: none;
+    }
 }
 
 nav.navbar .navbar-brand {
-  font-weight: bolder;
-  font-size: 22px;
+    font-weight: bolder;
+    font-size: 22px;
 }
 
 nav.navbar .navbar-nav {
-  text-transform: uppercase;
-  font-size: 13px;
+    text-transform: uppercase;
+    font-size: 13px;
 }
 
 nav.navbar .navbar-toggler {
-  background-color: #0e1d36 !important;
+    background-color: #0e1d36 !important;
 }
 
 nav.navbar i {
-  font-size: 18px;
+    font-size: 18px;
 }
 
 .ProductCard .card {
-  float: left;
-  text-transform: uppercase;
+    float: left;
+    text-transform: uppercase;
 }
 
 .ProductCard .card .card-body {
-  height: 250px;
+    height: 250px;
 }
 
 .ProductCard .card .descProduct {
-  color: #0e1d36;
-  font-size: 11px;
-  clear: both;
+    color: #0e1d36;
+    font-size: 11px;
+    clear: both;
 }
 
 .ProductCard .card .priceProduct {
-  color: #777;
-  font-size: 9px;
+    color: #777;
+    font-size: 9px;
 }
 
 .ourPrincipe {
-  width: 100%;
-  height: auto;
-  overflow: hidden;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
 }
 
 @media screen and (max-width: 768px) {
-  .ourPrincipe .BoxPrincipe {
-    margin: 0 !important;
-  }
+    .ourPrincipe .BoxPrincipe {
+        margin: 0 !important;
+    }
 }
 
 .ourPrincipe .card {
-  background-color: transparent;
-  padding: 10px 5%;
-  font-size: 13px;
-  border-radius: 0;
+    background-color: transparent;
+    padding: 10px 5%;
+    font-size: 13px;
+    border-radius: 0;
 }
 
 .ourPrincipe .card h2 {
-  color: #0e1d36;
-  margin-bottom: 10px;
+    color: #0e1d36;
+    margin-bottom: 10px;
 }
 
 .Shop {
-  text-align: center;
-  color: #0e1d36;
-  height: auto;
-  background-color: white !important;
-  overflow: hidden !important;
+    text-align: center;
+    color: #0e1d36;
+    height: auto;
+    background-color: white !important;
+    overflow: hidden !important;
 }
 
 .Shop .optionShop {
-  padding: 0 !important;
-  height: auto;
-  overflow: hidden !important;
+    padding: 0 !important;
+    height: auto;
+    overflow: hidden !important;
 }
 
 .Shop .optionShop [class*=col-] {
-  float: left;
+    float: left;
 }
 
 .Shop .optionShop button {
-  background-color: transparent !important;
-  padding: 10px 5%;
-  border-radius: 0;
+    background-color: transparent !important;
+    padding: 10px 5%;
+    border-radius: 0;
 }
 
 .Shop .ShopProduct {
-  width: 100%;
+    width: 100%;
 }
 
 .Shop .ShopProduct .card {
-  float: left;
-  background-color: transparent !important;
+    float: left;
+    background-color: transparent !important;
 }
 
 .Shop .ShopProduct .card p {
-  font-size: 1vw;
+    font-size: 1vw;
 }
 
 .sticky {
-  position: fixed !important;
-  top: 0;
-  background-color: #bf7d56;
-  border: 0 !important;
+    position: fixed !important;
+    top: 0;
+    background-color: #bf7d56;
+    border: 0 !important;
 }
 
 .titleProduct {
-  font-size: 22px;
-  font-weight: bolder;
+    font-size: 22px;
+    font-weight: bolder;
 }
-
