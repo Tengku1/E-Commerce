@@ -8,14 +8,14 @@
             <div class="carousel-caption">
                 <h6>Pre-Order Now !</h6>
                 <p>samsung samsuldin s10</p>
-                <a href="#" role="button" class="btn btn-light px-4 py-2 rounded-0">Cicak</a>
+                <a href="#" role="button" class="btn btn-light px-4 py-2 rounded-0">Buy Now</a>
             </div>
         </div>
         <div class="carousel-item">
             <div class="carousel-caption">
                 <h6>Pre-Order Now !</h6>
                 <p>samsung samsuldin s10</p>
-                <a href="#" role="button" class="btn btn-light px-4 py-2 rounded-0">Cicak</a>
+                <a href="#" role="button" class="btn btn-light px-4 py-2 rounded-0">Buy Now</a>
             </div>
         </div>
     </div>
