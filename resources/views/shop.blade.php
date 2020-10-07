@@ -1,9 +1,9 @@
-@extends('layouts.Master',['title'=>'Putri - Shop'])
+@extends('layouts.master',['title'=>'Putri - Shop'])
 
 {{-- Section --}}
 @section('content')
 
-@include('layouts.Slide')
+@include('layouts.slide')
 <div class="jumbotron Shop pt-5 pb-3 px-0">
     <h2>All Products</h2>
     <div class="col-md-12 optionShop p-0 border bg-white mt-3">

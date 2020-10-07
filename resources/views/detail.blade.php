@@ -1,4 +1,4 @@
-@extends('layouts.Master',['title'=>'Putri - Shop'])
+@extends('layouts.master',['title'=>'Putri - Shop'])
 
 {{-- Section --}}
 @section('content')

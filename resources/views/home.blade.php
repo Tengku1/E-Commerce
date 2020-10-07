@@ -1,6 +1,6 @@
-@extends('layouts.Master', ['title' => 'Putri Indonesia'])
+@extends('layouts.master', ['title' => 'Putri Indonesia'])
 @section('content')
-@include('layouts.Slide')
+@include('layouts.slide')
 <div class="container mt-5">
     <div class="col-12 ProductCard mb-5 clearfix">
         <div class="col-12 text-center mb-4" id="categories">
