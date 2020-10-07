@@ -8,8 +8,8 @@
         </div>
         <div class="card col-md-4 px-2 border-0">
             <div class="card-body border-0">
-                <img src="{{asset('images/Supreme-Shoulder-Bag-SS18-Red.jpg')}}" alt="" srcset="" class="w-100 h-100">
-                <img src="{{asset('images/Supreme-Shoulder-Bag-SS18-Black.jpg')}}" alt="" srcset="" class="w-100 h-75">
+                <img src="{{secure_asset('images/Supreme-Shoulder-Bag-SS18-Red.jpg')}}" alt="" srcset="" class="w-100 h-100">
+                <img src="{{secure_asset('images/Supreme-Shoulder-Bag-SS18-Black.jpg')}}" alt="" srcset="" class="w-100 h-75">
             </div>
             <div class="card-footer border-0 bg-transparent">
                 <h5 class="text-center">Supreme Bags</h5>
@@ -17,8 +17,8 @@
         </div>
         <div class="card col-md-4 px-2 border-0">
             <div class="card-body border-0">
-                <img src="{{asset('images/GucciWallets.jpeg')}}" alt="" srcset="" class="w-100 h-100">
-                <img src="{{asset('images/GucciWallets2.jpeg')}}" alt="" srcset="" class="w-100 h-75">
+                <img src="{{secure_asset('images/GucciWallets.jpeg')}}" alt="" srcset="" class="w-100 h-100">
+                <img src="{{secure_asset('images/GucciWallets2.jpeg')}}" alt="" srcset="" class="w-100 h-75">
             </div>
             <div class="card-footer border-0 bg-transparent">
                 <h5 class="text-center">Gucci Wallets</h5>
@@ -26,8 +26,8 @@
         </div>
         <div class="card col-md-4 px-2 border-0">
             <div class="card-body border-0">
-                <img src="{{asset('images/SupJacket.jpg')}}" alt="" srcset="" class="w-100 h-100">
-                <img src="{{asset('images/OreoSupreme.jpg')}}" alt="" srcset="" class="w-100 h-75">
+                <img src="{{secure_asset('images/SupJacket.jpg')}}" alt="" srcset="" class="w-100 h-100">
+                <img src="{{secure_asset('images/OreoSupreme.jpg')}}" alt="" srcset="" class="w-100 h-75">
             </div>
             <div class="card-footer border-0 bg-transparent">
                 <h5 class="text-center">Custom</h5>
@@ -43,7 +43,7 @@
         <div class="card col-md-3 px-3 itemBest float-left">
             <div class="card-body">
                 <img src="images/SupJacket.jpg" alt="" srcset="" class="w-100 h-100">
-                <img src="{{asset('images/OreoSupreme.jpg')}}" alt="" srcset="" class="w-100 h-75">
+                <img src="{{secure_asset('images/OreoSupreme.jpg')}}" alt="" srcset="" class="w-100 h-75">
             </div>
             <div class="card-footer">
                 <span>Supreme Jacket</span>
