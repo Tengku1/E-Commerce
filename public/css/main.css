@@ -18,6 +18,7 @@ html {
   letter-spacing: 2px;
   font-weight: bolder;
 }
+
 .bestSeller button {
   text-transform: uppercase;
   background: linear-gradient(to right, #0e1d36 50%, #40281a 50%);
@@ -25,12 +26,15 @@ html {
   background-position: right bottom;
   transition: all 0.5s ease-out;
 }
+
 .bestSeller button:hover {
   background-position: left bottom;
 }
+
 .bestSeller .itemBest {
   font-size: 13px;
 }
+
 .bestSeller .itemBest span {
   clear: both;
   content: "";
@@ -40,19 +44,23 @@ html {
 .card {
   border: 0 !important;
 }
+
 .card .card-header {
   background-color: transparent;
   border: 0;
 }
+
 .card .card-body {
   background-color: transparent;
   border: 0;
   margin: 0 !important;
 }
+
 .card .card-body img {
   transition: opacity 0.3s ease-out;
   display: inline;
 }
+
 .card .card-body img:nth-of-type(2) {
   opacity: 0;
   position: absolute;
@@ -62,12 +70,15 @@ html {
   right: 0;
   z-index: 99;
 }
+
 .card .card-body:hover img:nth-of-type(2) {
   opacity: 1;
 }
+
 .card .card-body:hover img:first-of-type {
   opacity: 0;
 }
+
 .card .card-footer {
   background-color: transparent;
   border: 0;
@@ -81,12 +92,15 @@ html {
   background-attachment: fixed;
   font-weight: bolder;
 }
+
 .carousel .carousel-item:first-of-type {
-  background-image: url("../../public/images/screen-0.jpg");
+  background-image: url(/images/screen-0.jpg?6f55796e104b1b12f247c64e95e731dd);
 }
+
 .carousel .carousel-item:last-of-type {
-  background-image: url("../../public/images/screen-2.jpg");
+  background-image: url(/images/screen-2.jpg?e770bf1c93b4b18545429ff13a575394);
 }
+
 .carousel .carousel-item .carousel-caption {
   font-size: 20px;
   text-transform: uppercase;
@@ -95,6 +109,7 @@ html {
   left: 0;
   bottom: 15%;
 }
+
 @media only screen and (max-width: 980px) {
   .carousel .carousel-item .carousel-caption {
     left: 0;
@@ -109,6 +124,7 @@ html {
   overflow: hidden;
   padding-top: 100px !important;
 }
+
 .detail table td {
   padding: 7px 2%;
   border: none !important;
@@ -119,13 +135,16 @@ html {
   height: auto;
   background-color: #f2efeb;
 }
+
 .excellence .BoxExcellence {
   height: 550px;
 }
+
 .excellence .BoxExcellence .col-md-6 {
   height: 100%;
   overflow: hidden;
 }
+
 .excellence .BoxExcellence .col-md-6 h1,
 .excellence .BoxExcellence .col-md-6 h2,
 .excellence .BoxExcellence .col-md-6 h3,
@@ -135,15 +154,19 @@ html {
   color: #0e1d36;
   margin-bottom: 20px;
 }
+
 .excellence .BoxExcellence .col-md-6 span {
   color: #59291e;
 }
+
 .excellence .BoxExcellence .descExcellence {
   padding: 160px 4%;
 }
+
 .excellence .BoxExcellence:nth-of-type(even) .col-md-6 {
   float: right;
 }
+
 .excellence .BoxExcellence:nth-of-type(odd) .col-md-6 {
   float: left;
 }
@@ -154,32 +177,40 @@ nav.navbar.coreNav {
   background-color: #bf7d56;
   transition: color 0.3s ease-in-out;
 }
+
 nav.navbar.coreNav a {
   color: white;
   transition: color 0.3s ease-in-out;
 }
+
 nav.navbar.coreNav [class*=col-] {
   text-align: center;
 }
+
 nav.navbar.coreNav [class*=col-]:last-of-type .navbar-nav {
   float: right;
 }
+
 @media only screen and (max-width: 980px) {
   nav.navbar.coreNav [class*=col-]:last-of-type .navbar-nav {
     float: none;
   }
 }
+
 nav.navbar.coreNav .navbar-brand {
   font-weight: bolder;
   font-size: 22px;
 }
+
 nav.navbar.coreNav .navbar-nav {
   text-transform: uppercase;
   font-size: 13px;
 }
+
 nav.navbar.coreNav .navbar-toggler {
   background-color: #0e1d36 !important;
 }
+
 nav.navbar.coreNav i {
   font-size: 18px;
 }
@@ -188,14 +219,17 @@ nav.navbar.coreNav i {
   float: left;
   text-transform: uppercase;
 }
+
 .ProductCard .card .card-body {
   height: 250px;
 }
+
 .ProductCard .card .descProduct {
   color: #0e1d36;
   font-size: 11px;
   clear: both;
 }
+
 .ProductCard .card .priceProduct {
   color: #777;
   font-size: 9px;
@@ -206,17 +240,20 @@ nav.navbar.coreNav i {
   height: auto;
   overflow: hidden;
 }
+
 @media screen and (max-width: 768px) {
   .ourPrincipe .BoxPrincipe {
     margin: 0 !important;
   }
 }
+
 .ourPrincipe .card {
   background-color: transparent;
   padding: 10px 5%;
   font-size: 13px;
   border-radius: 0;
 }
+
 .ourPrincipe .card h2 {
   color: #0e1d36;
   margin-bottom: 10px;
@@ -229,25 +266,30 @@ nav.navbar.coreNav i {
   background-color: white !important;
   overflow: hidden !important;
 }
+
 .Shop .optionShop {
   padding: 0 !important;
   height: auto;
   color: black;
   background-color: #f2efeb;
 }
+
 .Shop .optionShop [class*=col-] {
   float: left;
 }
+
 .Shop .optionShop button {
   background-color: transparent !important;
   padding: 10px 5%;
   border-radius: 0;
 }
+
 .Shop .optionShop .optionDrop {
   display: inline-block;
   position: relative;
   margin: 0 0.5%;
 }
+
 .Shop .optionShop .optionDrop .optionDropContent {
   opacity: 0;
   background-color: #d9b79a;
@@ -259,6 +301,7 @@ nav.navbar.coreNav i {
   background-color: #f2efeb;
   z-index: 9;
 }
+
 .Shop .optionShop .optionDrop .optionDropContent a {
   color: black;
   text-decoration: none;
@@ -267,17 +310,21 @@ nav.navbar.coreNav i {
   clear: both;
   content: "";
 }
+
 .Shop .optionShop .optionDrop:hover .optionDropContent {
   display: block;
   opacity: 1;
 }
+
 .Shop .ShopProduct {
   width: 100%;
 }
+
 .Shop .ShopProduct .card {
   float: left;
   background-color: transparent !important;
 }
+
 .Shop .ShopProduct .card p {
   font-size: 1vw;
 }
@@ -293,3 +340,4 @@ nav.navbar.coreNav i {
   font-size: 22px;
   font-weight: bolder;
 }
+
