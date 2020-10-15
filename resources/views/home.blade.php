@@ -1,4 +1,4 @@
-@extends('layouts.master', ['title' => 'Putri Indonesia'])
+@extends('layouts.master',['title'=>'Shoppers - Shop'])
 @section('content')
 @include('layouts.slide')
 <div class="container mt-5">
@@ -138,17 +138,4 @@
         </div>
     </div>
 </div>
-
-<footer class="col-md-12 font-weight-bolder p-4 text-center text-white p-5 clearfix">
-    <h4>Follow Us</h4>
-    <div class="col-md-12 my-4">
-        <i class="fa fa-facebook-square"></i>
-        <i class="fa fa-whatsapp"></i>
-        <i class="fa fa-instagram"></i>
-        <i class="fa fa-twitter-square"></i>
-    </div>
-    <div class="col-md-12">
-        Powered by Tengku
-    </div>
-</footer>
 @endsection

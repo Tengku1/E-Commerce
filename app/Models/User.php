@@ -16,17 +16,18 @@ class User extends Authenticatable
      *
      * @var array
      */
+
+    public $timestamps = "false";
+    const UPDATED_AT = "modified_at";
+    const CREATED_AT = "created_at";
+
     protected $fillable = [
         'name',
         'email',
         'password',
+        'roles',
     ];
 
-    /**
-     * The attributes that should be hidden for arrays.
-     *
-     * @var array
-     */
     protected $hidden = [
         'password',
         'remember_token',
