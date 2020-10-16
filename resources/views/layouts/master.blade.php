@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{{asset('css/main.css')}}">
-    <link rel="stylesheet" href="{{asset('Bootstrap4/bootstrap-4.0.0-dist/css/bootstrap.min.css')}}">
-    <link rel="stylesheet" href="{{asset('font-awesome-4.7.0/css/font-awesome.min.css')}}">
+    <link rel="stylesheet" href="{{secure_asset('css/main.css')}}">
+    <link rel="stylesheet" href="{{secure_asset('Bootstrap4/bootstrap-4.0.0-dist/css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{secure_asset('font-awesome-4.7.0/css/font-awesome.min.css')}}">
     @yield('Othercss')
     <title>{{$title ?? 'Shoppers'}}</title>
 </head>
