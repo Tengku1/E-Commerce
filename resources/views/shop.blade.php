@@ -1,4 +1,4 @@
-@extends('layouts.master',['title'=>'Shoppers - Shop'])
+@extends('layouts.app',['title'=>'Shoppers - Shop'])
 
 {{-- Section --}}
 @section('content')
@@ -19,6 +19,7 @@
             </div>
             <button class="btn">Limit</button>
         </div>
+        
     </div>
     <div class="ShopProduct mt-5">
         <div class="card col-lg-4 col-md-4 col-sm-6 col-6">

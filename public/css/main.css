@@ -14,6 +14,44 @@ html {
   scroll-behavior: smooth;
 }
 
+.about {
+  color: #0e1d36;
+  padding: 130px 10% 10px;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  font-size: 15px;
+}
+
+.about .aboutTitle {
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.about .team {
+  padding-top: 20px;
+}
+
+.about .team .card {
+  float: left;
+  padding: 0 2%;
+}
+
+.about .team .card .card-header {
+  height: 200px;
+  overflow: hidden;
+}
+
+.about .team .card .card-header img {
+  width: 100%;
+}
+
+.about .team .card .card-footer {
+  text-align: center;
+  font-size: 22px;
+}
+
 .bestSeller {
   letter-spacing: 2px;
   font-weight: bolder;
@@ -119,6 +157,39 @@ html {
   }
 }
 
+.cartSidebar {
+  width: 50vh;
+  height: 100%;
+  padding: 10px 2%;
+  position: fixed;
+  right: -300%;
+  top: 0;
+  z-index: 9999;
+  background-color: #bf9d7e;
+  color: #f2efeb;
+  transition: all 0.5s ease-in-out;
+}
+
+.cartSidebar .headCartSidebar {
+  text-transform: uppercase;
+  padding: 9px 0;
+  border-bottom: 1px solid #f2efeb;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.cartSidebar .headCartSidebar .btn {
+  background-color: transparent;
+  border: none;
+  float: right;
+  padding: 0;
+  color: #f2efeb;
+}
+
+.showBagCart {
+  right: 0 !important;
+}
+
 .detail {
   height: auto;
   overflow: hidden;
@@ -128,6 +199,22 @@ html {
 .detail table td {
   padding: 7px 2%;
   border: none !important;
+}
+
+.detail table input {
+  border-color: #333 !important;
+}
+
+.detail button {
+  color: white;
+}
+
+.detail .basketBtn {
+  background-color: #a65644;
+}
+
+.detail .buyBtn {
+  background-color: #bf6849;
 }
 
 .excellence {

@@ -1,4 +1,4 @@
-@extends('layouts.master',['title'=>'Shoppers - Shop'])
+@extends('layouts.app',['title'=>'Shoppers - Shop'])
 
 {{-- Section --}}
 @section('content')
@@ -30,7 +30,7 @@
             <tr>
                 <td>kuantitas</td>
                 <td>
-                    <input type="number" class="px-2" min="0" max="69">
+                    <input type="number" class="px-2 border-top-0 border-right-0 border-left-0 border-bottom" min="1" max="69" value="1">
                     <span class="small">Tersisa 69</span>
                 </td>
             </tr>
@@ -45,9 +45,14 @@
             Iure quisquam similique itaque nihil ipsum unde aspernatur ab tempora! Possimus, eius expedita deleniti at
             illum dolor suscipit tenetur quisquam ab doloremque repellendus, perspiciatis fugiat itaque sapiente
             voluptatum consequatur veritatis?</blockquote>
-        <div class="col-md-12 btn-group text-white">
-            <div class="btn p-3 bg-info"><i class="fa fa-shopping-basket"></i> Keranjang</div>
-            <div class="btn p-3 bg-success"><i class="fa fa-shopping-cart"></i> Beli</div>
+        <div class="col-md-12 text-white">
+            @if (Auth::user() == null)
+                <a href="/login"><button class="btn p-3 basketBtn"><i class="fa fa-shopping-basket"></i> Keranjang</button></a>
+                <a href="/login"><button class="btn p-3 buyBtn"><i class="fa fa-shopping-cart"></i> Beli</button></a>
+                @else
+                <a href="#"><button class="btn p-3 basketBtn"><i class="fa fa-shopping-basket"></i> Keranjang</button></a>
+                <a href="#"><button class="btn p-3 buyBtn"><i class="fa fa-shopping-cart"></i> Beli</button></a>
+            @endif
         </div>
     </div>
 </div>

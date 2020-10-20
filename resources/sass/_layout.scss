@@ -20,6 +20,43 @@ html {
 
 // Class
 
+.about {
+    color: $donkerBlue;
+    padding: 130px 10% 10px;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    font-size: 15px;
+
+    .aboutTitle {
+        text-transform: uppercase;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .team {
+        padding-top: 20px;
+        .card {
+            .card-header {
+                height: 200px;
+                overflow: hidden;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .card-footer {
+                text-align: center;
+                font-size: 22px;
+            }
+
+            float: left;
+            padding: 0 2%;
+        }
+    }
+}
+
 .bestSeller {
     letter-spacing: 2px;
     font-weight: bolder;
@@ -128,6 +165,37 @@ html {
     }
 }
 
+.cartSidebar {
+    width: 50vh;
+    height: 100%;
+    padding: 10px 2%;
+    position: fixed;
+    right: -300%;
+    top: 0;
+    z-index: 9999;
+    background-color: $color6;
+    color: $color2;
+    transition: all .5s ease-in-out;
+    .headCartSidebar {
+        text-transform: uppercase;
+        padding: 9px 0;
+        border-bottom: 1px solid $color2;
+        text-align: center;
+        margin-bottom: 10px;
+        .btn {
+            background-color: transparent;
+            border: none;
+            float: right;
+            padding: 0;
+            color: $color2;
+        }
+    }
+}
+
+.showBagCart {
+    right: 0 !important;
+}
+
 .detail {
     height: auto;
     overflow: hidden;
@@ -138,6 +206,20 @@ html {
             padding: 7px 2%;
             border: none !important;
         }
+
+        input {
+            border-color: #333 !important;
+        }
+    }
+    button {
+        color: white;
+    }
+    .basketBtn {
+        background-color: $color5;
+    }
+
+    .buyBtn {
+        background-color: $color9;
     }
 }
 

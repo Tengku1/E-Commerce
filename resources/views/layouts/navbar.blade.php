@@ -32,15 +32,17 @@
                     <a class="nav-link" href="#"><i class="fa fa-search"></i></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fa fa-shopping-bag"></i></a>
+                    <button class="btn bg-transparent border-0 text-white" onclick="OpenSidebar()">
+                        <i class="fa fa-shopping-bag"></i>
+                    </button>
                 </li>
                 @guest
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
+                    <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }} <i class="fa fa-sign-in"></i></a>
                 </li>
                 @if (Route::has('register'))
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
+                    <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }} <i class="fa fa-user-plus"></i></a>
                 </li>
                 @endif
                 @else
@@ -65,3 +67,14 @@
         </div>
     </div>
 </nav>
+<div class="cartSidebar" id="BagCart">
+    <div class="col-md-12 headCartSidebar">
+        <span>Pesanan Anda</span>
+        <button class="btn" onclick="CloseSidebar()">
+            <i class="fa fa-close"></i>
+        </button>
+    </div>
+    <span>Anda belum memiliki pesanan</span>
+</div>
+
+<script src="{{'js/index.js'}}"></script>

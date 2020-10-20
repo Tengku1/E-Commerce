@@ -1,4 +1,4 @@
-@extends('layouts.master',['title'=>'Shoppers - Shop'])
+@extends('layouts.app',['title'=>'Shoppers - Shop'])
 @section('content')
 @include('layouts.slide')
 <div class="container mt-5">
